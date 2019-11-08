@@ -5,7 +5,14 @@
     android:layout_width="match_parent"
     android:id="@+id/lr2"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_height="match_parent"
     tools:context=".coloradded">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="prevact"
+        android:text="Back"></Button>
 
 </LinearLayout>
